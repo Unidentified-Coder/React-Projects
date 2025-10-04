@@ -1,15 +1,18 @@
+import {Mail} from "lucide-react"
 export default function Header(){
   return (
       <header className="header">
-        <img src="src/assets/Rodas-Grad-Pic.JPG" width="100px" alt="Rodas in Graduation Attire"/>
-      <nav>
-        <ul className="nav-list">
-          <li className="nav-list-item">Home</li>
-          <li className="nav-list-item">About</li>
-          <li className="nav-list-item">Contact me</li>
+        <img src="src/assets/Rodas-Grad-Pic.JPG" alt="Rodas in Graduation Attire"/>
 
-        </ul>
-      </nav>
+        <h1>Rodas Samson Gebrtensie</h1>
+        <h3>Frontend Developer</h3>
+
+        <button className="email-button">
+        <mail className="icon"/>
+        <span>Email</span>
+
+        </button>
+        <button></button>
       </header>
 
   )
