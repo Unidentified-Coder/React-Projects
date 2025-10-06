@@ -1,4 +1,3 @@
-import {Mail} from "lucide-react"
 export default function Header(){
   return (
       <header className="header">
