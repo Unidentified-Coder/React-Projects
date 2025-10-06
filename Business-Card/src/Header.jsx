@@ -1,4 +1,3 @@
-import { MailIcon } from "/Icon/Font Awesome Free/Brands/Icon.png"
 export default function Header(){
   return (
       <header className="header">
@@ -7,10 +6,14 @@ export default function Header(){
         <h1>Rodas Samson Gebrtensie</h1>
         <h3>Frontend Developer</h3>
 
+        <button className="email-btn">
+            <img src="src/assets/Icon.png" alt="mail logo" />
+           <span>Email</span>
+        </button>
+          
         <button className="linkedin-btn">
-           <span>Linkedin</span>
-        
-        <img src= {MailIcon} alt="mail" className="Icon"/>
+            <img src="src/assets/linkedin.png" alt="blue l" />
+            <span>Linkedin</span>
         </button>
         
       </header>

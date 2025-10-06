@@ -29,6 +29,7 @@ header > img {
     display: block;
     margin: auto;
     width: 350px;
+    padding: 0px 20px;
     
 }
 
@@ -41,11 +42,15 @@ header > button {
 }
 .linkedin-btn{
     background: #5093E2;
-    
-}
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position-y: 50%; */
 
+}
 .email-btn{
-    background: #FFFFFF;
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position-y: 50%; */
 
 }
 
