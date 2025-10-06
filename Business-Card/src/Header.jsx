@@ -7,12 +7,12 @@ export default function Header(){
         <h3>Frontend Developer</h3>
 
         <button className="email-btn">
-            <img src="src/assets/Icon.png" alt="mail logo" />
+            <img className="img-icon" src="src/assets/Icon.png" alt="mail logo" />
            <span>Email</span>
         </button>
           
         <button className="linkedin-btn">
-            <img src="src/assets/linkedin.png" alt="blue l" />
+            <img className="img-icon" src="src/assets/linkedin.png" alt="blue l" />
             <span>Linkedin</span>
         </button>
         

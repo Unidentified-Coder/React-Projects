@@ -28,13 +28,13 @@ h1 {
 header > img {
     display: block;
     margin: auto;
-    width: 350px;
+    width: 450px;
     padding: 0px 20px;
     
 }
 
 header > button {
-    padding: 9px 13px;
+    padding: 9px 13px 9px 11px;
     margin: 10px;
     cursor: pointer;
     border: 1px;
@@ -45,12 +45,16 @@ header > button {
     background-size: cover;
     /* background-repeat: no-repeat;
     background-position-y: 50%; */
-
 }
 .email-btn{
     background-size: cover;
     /* background-repeat: no-repeat;
     background-position-y: 50%; */
-
 }
+.img-icon{
+    width:16px ;
+    height:16px;
+    margin-right: 5px;
+}
+
 
