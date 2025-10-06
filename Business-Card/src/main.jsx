@@ -15,7 +15,6 @@ function MainPage(){
   return(
     <>
     <Header />
-
     <Footer />
     </>
   )
