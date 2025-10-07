@@ -6,15 +6,27 @@ export default function Header(){
         <h1>Rodas Samson Gebrtensie</h1>
         <h3>Frontend Developer</h3>
 
-        <button className="email-btn">
-            <img className="img-icon" src="src/assets/Icon.png" alt="mail logo" />
+        <a 
+            className="email-btn"
+            
+            href = "mailto:rsamson139@gmail.com"
+            target="_blank"
+        >
+            
+            
+            <img className="email-img-icon" src="src/assets/Icon.png" alt="mail logo" />
            <span>Email</span>
-        </button>
+        </a>
           
-        <button className="linkedin-btn">
-            <img className="img-icon" src="src/assets/linkedin.png" alt="blue l" />
+        <a 
+            className="linkedin-btn"
+        
+            href="https://www.linkedin.com/in/rodas-samson-gebrtensea-8a53922a9"
+            target="_blank"
+        >
+            <img className="li-img-icon" src="src/assets/linkedin.png" alt="blue l" />
             <span>Linkedin</span>
-        </button>
+        </a>
         
       </header>
 
