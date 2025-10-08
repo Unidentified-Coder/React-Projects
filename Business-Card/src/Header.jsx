@@ -17,7 +17,7 @@ export default function Header(){
             
             
             <img className="email-img-icon" src="src/assets/Icon.png" alt="mail logo" />
-           <span>Email</span>
+           <span className='email-header'>Email</span>
         </a>
           
         <a 
@@ -27,7 +27,7 @@ export default function Header(){
             target="_blank"
             >
             <img className="li-img-icon" src="src/assets/linkedin.png" alt="blue l" />
-            <span>Linkedin</span>
+            <span className='linkedin-header'>Linkedin</span>
         </a>
         
       </header>

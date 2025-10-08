@@ -1,4 +1,11 @@
-h1{
+.title-txt{
     display: flex;
     justify-content: center;
+}
+.about-txt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    
 }
