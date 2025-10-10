@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client"
 import Header from "./Header"
 import About from "./About"
 import Footer from "./Footer.Jsx"
+import Intrest from "./Intrest"
 const root = createRoot(document.getElementById("root"))
 
 function MainPage(){
@@ -10,6 +11,7 @@ function MainPage(){
     <>
     <Header />
     <About />
+    <Intrest />
     <Footer />
     </>
   )
