@@ -8,9 +8,11 @@ body {
     background: #27292c;
     color: white;
     margin: 0 500px 0 500px;
+    background: #1A1B21;
 }
 .header{
     text-align: center;
+
 }
 header > h1{
     text-align: center;
@@ -23,10 +25,15 @@ header > img {
     margin: auto;
     width: 450px;
     padding: 0px 20px;
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
     
 }
 .main-img{
-    border-radius: 30px;
+    /* border-radiust: 30px; */
 }
 .email-header,.linkedin-header{
     padding: 30px 10px;
