@@ -4,6 +4,7 @@ export default function Header(){
     <>
       <header className="header">
         <img className= 'main-img' src="src/assets/Rodas-Grad-Pic.JPG" alt="Rodas in Graduation Attire"/>
+      </header>
 
         <h1>Rodas Samson Gebrtensie</h1>
         <h3>Frontend Developer</h3>
@@ -30,7 +31,6 @@ export default function Header(){
             <span className='linkedin-header'>Linkedin</span>
         </a>
         
-      </header>
         <div>
             <h1 className='title-txt'>
                 About

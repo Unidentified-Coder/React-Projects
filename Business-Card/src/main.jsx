@@ -8,6 +8,10 @@ function MainPage(){
   return(
     <>
     <Header />
+<<<<<<< HEAD
+=======
+    <About />
+>>>>>>> parent of 208aaa6 (Intrest added)
     <Footer />
     </>
   )
