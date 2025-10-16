@@ -6,32 +6,36 @@ export default function Header(){
         <img className= 'main-img' src="src/assets/Rodas-Grad-Pic.JPG" alt="Rodas in Graduation Attire"/>
       </header>
 
-        <h1>Rodas Samson Gebrtensie</h1>
-        <h3>Frontend Developer</h3>
 
-        <a 
-            className="email-btn"
-            
-            href = "mailto:rsamson139@gmail.com"
-            target="_blank"
-            >
-            
-            
-            <img className="email-img-icon" src="src/assets/Icon.png" alt="mail logo" />
-           <span className='email-header'>Email</span>
-        </a>
-          
-        <a 
-            className="linkedin-btn"
-            
-            href="https://www.linkedin.com/in/rodas-samson-gebrtensea-8a53922a9"
-            target="_blank"
-            >
-            <img className="li-img-icon" src="src/assets/linkedin.png" alt="blue l" />
-            <span className='linkedin-header'>Linkedin</span>
-        </a>
+        <h1 className='Name-ttl'>Rodas Samson Gebrtensie</h1>
+        <h3 className='Sub-ttl'>Frontend Developer</h3>
         
-        <div>
+        <div className='Buttons'>
+
+            <a 
+                className="email-btn"
+                
+                href = "mailto:rsamson139@gmail.com"
+                target="_blank"
+                >
+                
+                
+                <img className="email-img-icon" src="src/assets/Icon.png" alt="mail logo" />
+            <span className='email-header'>Email</span>
+            </a>
+            
+            <a 
+                className="linkedin-btn"
+                
+                href="https://www.linkedin.com/in/rodas-samson-gebrtensea-8a53922a9"
+                target="_blank"
+                >
+                <img className="li-img-icon" src="src/assets/linkedin.png" alt="blue l" />
+                <span className='linkedin-header'>Linkedin</span>
+            </a>
+        </div>
+        
+        <div className='About-info'>
             <h1 className='title-txt'>
                 About
 
@@ -42,7 +46,11 @@ export default function Header(){
                 I'm always open to suggestion in improving my coding techniques 
             </span>
         </div>
-        <h1 className='Intrest-ttl'>Intrests</h1>
+
+        <h1 className='Intrest-ttl'>
+            Intrests
+        
+        </h1>
 
             <ul>
                 <li>My favourite team is Chelsea</li>
