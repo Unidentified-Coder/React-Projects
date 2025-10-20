@@ -1,6 +1,14 @@
+import { motion } from "framer-motion"
 import './Components/index.css'
 export default function Header(){
   return (
+    <motion.div
+        initial={{ y: -100, opacity: 0 }}     
+        whileInView={{ y: 0, opacity: 1 }} 
+        viewport={{ once: true }}       
+        transition={{duration: 1.8 , ease: "easeOut",                    
+      }}
+    >
     <div className='Main-Container'>
         <div className='Business-Card'>
 
@@ -63,7 +71,8 @@ export default function Header(){
                 </ul>
             </div>
         </div>
-    </div>    
+    </div>
+    </motion.div>    
 
 
 
