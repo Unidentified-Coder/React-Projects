@@ -13,3 +13,4 @@ Using: `React js CSS Framer-Motion`
 
 This simple but effective Business Card allows me to hand it to intrested parties who wish to hire my services they have the option to view my LinkedIn Profile to know more about me or if they decide to contact me clicking the email button will instantly give them my email
 
+<video controls src="Screen Recording 2025-10-20 at 12.04.01.mov" title="Title"></video>
