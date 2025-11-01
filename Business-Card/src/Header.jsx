@@ -38,7 +38,7 @@ export default function Header(){
                 <a 
                     className="linkedin-btn"
                     
-                    href="https://www.linkedin.com/in/rodas-samson-gebrtensea-8a53922a9"
+                    href="https://www.linkedin.com/in/rodas-samson-8a53922a9"
                     target="_blank"
                     >
                     <img className="li-img-icon" src="src/assets/linkedin.png" alt="blue l" />
