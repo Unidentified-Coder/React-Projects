@@ -1,0 +1,16 @@
+div{
+    background: #1A1B21;
+
+}
+.title-txt{
+    display: flex;
+    justify-content: center;
+}
+.about-txt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 100px 0 100px;
+    
+}
