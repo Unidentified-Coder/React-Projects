@@ -15,7 +15,6 @@ export default function Header(){
         <header className="header">
             <img className= 'main-img' src="src/assets/Rodas-Grad-Pic.JPG" alt="Rodas in Graduation Attire"/>
         </header>
-
         <div className='Secondary-Container'>
 
             <h1 className='Name-ttl'>Rodas Samson Gebrtensie</h1>
@@ -71,7 +70,8 @@ export default function Header(){
                 </ul>
             </div>
         </div>
-    </div>
+    </div>  
+    
     </motion.div>    
 
 
