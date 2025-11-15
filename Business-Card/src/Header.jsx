@@ -4,9 +4,9 @@ export default function Header(){
   return (
     <motion.div
         initial={{ y: -100, opacity: 0 }}     
-        whileInView={{ y: 0, opacity: 1 }} 
+        whileInView={{ y: 0, opacity: 2 }} 
         viewport={{ once: true }}       
-        transition={{duration: 1.8 , ease: "easeOut",                    
+        transition={{duration: 2 , ease: "easeOut",                    
       }}
     >
     <div className='Main-Container'>
