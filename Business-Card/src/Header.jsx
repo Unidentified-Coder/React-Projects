@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import './Components/index.css'
 export default function Header(){
   return (
+    // Gives sliding animation from top to center
     <motion.div
         initial={{ y: -100, opacity: 0 }}     
         whileInView={{ y: 0, opacity: 2 }} 
@@ -9,6 +10,7 @@ export default function Header(){
         transition={{duration: 2 , ease: "easeOut",                    
       }}
     >
+    {/* Hold the contents of the card with Img , Buttons and Text consisting of H1 H3 and anchor tag  */}
     <div className='Main-Container'>
         <div className='Business-Card'>
 
@@ -21,7 +23,7 @@ export default function Header(){
             <h3 className='Sub-ttl'>Frontend Developer</h3>
             
             <div className='Buttons'>
-
+            {/* Anchor tag with an arrow pointing to recipients email, the blank atribute open new page  */}
                 <a 
                     className="email-btn"
                     
@@ -33,7 +35,7 @@ export default function Header(){
                     <img className="email-img-icon" src="src/assets/Icon.png" alt="mail logo" />
                 <span className='email-header'>Email</span>
                 </a>
-                
+            {/* Anchor tag with an arrow pointing to recipients email, the blank atribute open new page  */}    
                 <a 
                     className="linkedin-btn"
                     
