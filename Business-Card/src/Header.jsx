@@ -23,7 +23,7 @@ export default function Header(){
             <h3 className='Sub-ttl'>Frontend Developer</h3>
             
             <div className='Buttons'>
-            {/* Anchor tag with an arrow pointing to recipients email, the blank atribute open new page  */}
+                {/* Anchor tag with recipients email*/}
                 <a 
                     className="email-btn"
                     
@@ -35,13 +35,14 @@ export default function Header(){
                     <img className="email-img-icon" src="src/assets/Icon.png" alt="mail logo" />
                 <span className='email-header'>Email</span>
                 </a>
-            {/* Anchor tag with an arrow pointing to recipients email, the blank atribute open new page  */}    
+                {/* Anchor tag with recipients Linkedin */}    
                 <a 
                     className="linkedin-btn"
                     
                     href="https://www.linkedin.com/in/rodas-samson-8a53922a9"
                     target="_blank"
                     >
+                {/* Img is from assets folder with alt text describing */}
                     <img className="li-img-icon" src="src/assets/linkedin.png" alt="blue l" />
                     <span className='linkedin-header'>Linkedin</span>
                 </a>
